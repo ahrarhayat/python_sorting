@@ -34,7 +34,7 @@ def sort_by_bubble_sort(unsorted_array):
 if __name__ == '__main__':
 
     # Here are some test cases that illustrates that this function works perfectly, with unsorted lists that are used
-    # as input to the function above
+    # as input to the function above, and the print statement shows the result of the returned array
     unsorted_list_1 = [5, 3, 10, 7, 4, 1]
     print(sort_by_bubble_sort(unsorted_list_1))
 
