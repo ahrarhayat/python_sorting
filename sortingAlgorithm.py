@@ -18,7 +18,7 @@ def sort_by_bubble_sort(unsorted_array):
         current_pass = i
         # the starting number of x is 0 and increments by 1 up until the number that yields from (n - currentPass -
         # 1) and represents the max index - 1
-        for x in range(n - currentPass - 1):
+        for x in range(n - current_pass - 1):
             # compare the two consecutive numbers and if the number on the left is greater than the one on the right,
             # swap them in the array, otherwise do nothing
             if array_to_be_sorted[x] > array_to_be_sorted[x + 1]:
