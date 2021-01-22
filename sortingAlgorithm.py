@@ -52,3 +52,6 @@ if __name__ == '__main__':
 
     unsorted_list_5 = [3, 2, 1, 2, 1,2]
     print(sort_by_bubble_sort(unsorted_list_5))
+    
+    unsorted_list_6 = [1, 2, 3, 4,5]
+    print(sort_by_bubble_sort(unsorted_list_6))
