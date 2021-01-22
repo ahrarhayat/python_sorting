@@ -17,9 +17,12 @@ def sort_by_bubble_sort(unsorted_array):
     for i in range(n):
         # the current pass is changed for every pass until n-1, and is assigned to the variable current pass
         current_pass = i
-        # the second for loop is used to compare each consecutive elements with each other
-        # the starting number of x is 0 and increments by 1 up until the number that yields from (n - currentPass -
-        # 1) and represents the max index - 1
+        # the second for loop is used to compare each consecutive elements with each other the starting number of x
+        # in this for loop is 0 and increments by 1 up until the number that yields from (n - currentPass - 1) and
+        # represents the (max index - 1). This is designed in this way so that the maximum value of the index equals
+        # n-1 when x starts off with 0, in that case the value in the 0th index will be compared to 0th + 1,
+        # which is the first index, the x increments by 1 and the value in the 1st index is compared to 2nd index and
+        # so on 
         for x in range(n - current_pass - 1):
             # compare the two consecutive numbers and if the number on the left is greater than the one on the right,
             # swap them in the array, otherwise do nothing
