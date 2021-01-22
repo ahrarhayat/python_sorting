@@ -12,10 +12,12 @@ def sort_by_bubble_sort(unsorted_array):
     n = len(unsorted_array)
     # The array to be sorted is copied to a new array called array_to_be_sorted
     array_to_be_sorted = unsorted_array
+    # the first for loop is used for every pass of the sort
     # starting from 0, up until the length of the array , this loop will do the same thing
     for i in range(n):
         # the current pass is changed for every pass until n-1, and is assigned to the variable current pass
         current_pass = i
+        # the second for loop is used to compare each consecutive elements with each other
         # the starting number of x is 0 and increments by 1 up until the number that yields from (n - currentPass -
         # 1) and represents the max index - 1
         for x in range(n - current_pass - 1):
