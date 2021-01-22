@@ -15,7 +15,7 @@ def sort_by_bubble_sort(unsorted_array):
     # starting from 0, up until the length of the array , this loop will do the same thing
     for i in range(n):
         # the current pass is changed for every pass until n-1, and is assigned to the variable current pass
-        currentPass = i
+        current_pass = i
         # the starting number of x is 0 and increments by 1 up until the number that yields from (n - currentPass -
         # 1) and represents the max index - 1
         for x in range(n - currentPass - 1):
