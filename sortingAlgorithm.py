@@ -10,7 +10,7 @@ unsorted half will bubble up to the largest index. '''
 def sort_by_bubble_sort(unsorted_array):
     # n represents the length of the unsorted array and is found by the in built function of python len()
     n = len(unsorted_array)
-    # The array to be sorted is copied to a new array called array_to_be_sorted
+    # The array to be sorted is copied to a new array called array_to_be_sorted in order to preserve the original array
     array_to_be_sorted = unsorted_array
     # the first for loop is used for every pass of the sort
     # starting from 0, up until the length of the array , this loop will do the same thing
