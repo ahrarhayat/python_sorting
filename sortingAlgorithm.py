@@ -1,7 +1,7 @@
 ''' The following function illustrates how the bubble sort algorithm works the function below will take a single
 array as an input and then return a sorted array in ascending as a result. The bubble sort algorithm compares two
 consecutive numbers in an array(which is a set of consecutive numbers) and then swaps the numbers if the number on
-the left is greater than the number on the right. After all the numbers adjacent to each other is complete,
+the left is greater than the number on the right. After all the numbers adjacent to each other is compared,
 the largest number will be in the end of the array and the same process is applied again on the partially sorted
 array for exactly the number of times as the length of the array, and in each pass the largest element in the
 unsorted half will bubble up to the largest index. '''
